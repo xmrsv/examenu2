@@ -11,7 +11,7 @@ pipeline {
             steps {
                 timeout(time: 10, unit: 'MINUTES'){
                     // Especifica la rama master explícitamente para mayor claridad.
-                    git branch: 'master', url: 'https://github.com/0xM4v1k/micro-product.git'
+                    git branch: 'master', url: 'https://github.com/xmrsv/examenu2'
                 }
             }
         }
